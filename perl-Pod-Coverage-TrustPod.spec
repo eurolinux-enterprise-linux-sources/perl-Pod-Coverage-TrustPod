@@ -1,6 +1,6 @@
 Name:           perl-Pod-Coverage-TrustPod
 Version:        0.100002
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Allow a module's pod to contain Pod::Coverage hints
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -51,6 +51,9 @@ RELEASE_TESTING=1 make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.100002-5
+- Mass rebuild 2013-12-27
+
 * Thu Oct 25 2012 Petr Pisar <ppisar@redhat.com> - 0.100002-4
 - Correct dependencies
 
